@@ -126,11 +126,11 @@ nav .fa-solid {
 }
 
 .main .mbox1 button {
-    width: 300px;
+    width: 240px;
     padding: 15px;
     border-radius: 30px;
     outline: none;
-    border: 1px solid #5c5470;
+    border: 1px solid  #dbd8e3;
     background: transparent;
     font-size: 20px;
     color: #dbd8e3;
@@ -141,13 +141,8 @@ nav .fa-solid {
 .main .mbox1 button:hover {
     background-color: #7858c7;
     color: #dbd8e3;
+    border: none;
 }
-
-
-
-
-
-
 
 
 
@@ -209,6 +204,7 @@ nav .fa-solid {
     color: #dbd8e3;
     margin-top: 50px;
     margin-bottom: 20px;
+    padding: 0 100px;
 }
 
 #box3 .skil {
@@ -216,6 +212,11 @@ nav .fa-solid {
     height: 160px;
     text-align: center;
     font-size: 24px;
+    margin-top: 30px;
+}
+
+#box3 .PHP{
+    color: white;
 }
 
 #box3 .skil img {
@@ -236,6 +237,8 @@ nav .fa-solid {
 #box3 i {
     margin-right: 10px;
 }
+
+
 
 #box4{
     width: 100%;
@@ -361,9 +364,11 @@ nav .fa-solid {
 #box4 .backtohome a i {
     margin-right: 10px;
 }
+
 #box5{
     width: 100%;
     padding: 20px;
+    background-color: #352f44;
 }
 
 .container5 .title {
@@ -414,6 +419,14 @@ nav .fa-solid {
     margin-top: 10px;
 }
 
+.b53 form  input:focus{
+    outline: none;
+}
+
+.b53 form  textarea:focus{
+    outline: none;
+}
+
 .b53 form textarea{
     width: 100%;
     padding: 10px;
@@ -458,7 +471,6 @@ nav .fa-solid {
 .mbox1 span{
     color: #79c2d0;
 }
-
 
 #box5 a {
     display: block;
@@ -705,180 +717,3 @@ nav .fa-solid {
         column-gap: 10px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media only screen and (max-width: 620px) {
-
-    nav {
-        font-size: 14px;
-        padding: 0;
-    }
-
-    .main .mbox2 img {
-        width: 400px;
-        height: 400px;
-    }
-
-    .main .mbox1 .h1 {
-        font-size: 35px;
-    }
-
-    .main .mbox1 .h2 {
-        font-size: 42px;
-    }
-
-    .main .mbox1 .h3 {
-        font-size: 35px;
-    }
-
-    nav ul {
-        width: 200px;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        background-color: #5c5470;
-        z-index: 2;
-        padding-top: 50px;
-        transition: 1s;
-    }
-
-    nav ul li {
-        display: block;
-        padding: 10px;
-        margin: 25px;
-    }
-
-    nav .fa-solid {
-        display: block;
-        font-size: 25px;
-        color: #dbd8e3;
-    }
-
-    nav .fa-xmark {
-        position: absolute;
-        top: 25px;
-        left: 20px;
-        cursor: pointer;
-    }
-
-    nav .fa-bars {
-        position: fixed;
-        top: 40px;
-        right: 30px;
-    }
-
-    nav ul li a:hover::after {
-        display: none;
-    }
-
-    nav ul li:hover {
-        background-color: #7858c7;
-        color: #dbd8e3;
-    }
-
-    .main .mbox2 {
-        order: 1;
-        margin-top: 10px;
-    }
-
-    .main .mbox1 {
-        order: 2;
-        text-align: center;
-    }
-
-    .main{
-        display: flex;
-        justify-content: center;
-    }
-
-    #box2{
-        flex-basis: 100%;
-    }
-
-    #box2 .h1{
-        font-size: 20px;
-    }
-
-    #box2 .h2{
-        font-size: 16px;
-    }
-
-    #box3 p{
-        font-size: 20px;
-    }
-
-    #box3 .skils{
-        display: flex;
-        flex-wrap: wrap;
-        flex-basis: 100%;
-    }
-
-    #box3 .skils img{
-        width: 100px;
-        height: 100px;
-    }
-
-    .container4 .projects{
-        display: flex;
-    justify-content: center;
-    }
-
-    .container5 .second{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container5 .title .pp{
-        font-size: 15px;
-    }
-
-    .second{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0;
-        margin: 20px 0;
-    }
-
-    .second .b53{
-    font-size: 15px;
-    }
-
-    .b52 .b521{
-        font-size: 15px;
-    }
-    .mb-3 button {
-        width: 100px;
-        margin-top: 20px;
-        margin-left: 150px;
-    }
-    .b53 .cont{
-        font-size: 15px;
-    }
-
-} */
