@@ -10,7 +10,8 @@ html{
 }
 
 body {
-    background-color: #2a2438;
+    /* background-color: #2a2438; */
+    background-color: #5c5470;
 }
 
 #box1 {
@@ -89,7 +90,7 @@ nav .fa-solid {
 
 .main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 20px 0;
 }
@@ -101,6 +102,7 @@ nav .fa-solid {
 .main .mbox2 img {
     width: 400px;
     height: 400px;
+    text-align: left;
 }
 
 .main .mbox1 {
